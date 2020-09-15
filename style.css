@@ -13,12 +13,17 @@
   text-decoration: none;
 }
 
+#bash{
+  color: #89E051;
+  text-shadow:
+  -1px -1px 0 #FFFFFF,
+  1px -1px 0 #FFFFFF,
+  -1px 1px 0 #FFFFFF,
+  1px 1px 0 #FFFFFF;
+}
+
 #codeexperience{
-  outline: inherit;
-  outline-style: solid;
-  outline-color: rgb(230, 228, 228);
   text-align: center;
-  color: black;
   padding: 20px 0px 10px;
   text-transform: none;
   font-size: 15px;
