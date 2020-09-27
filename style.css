@@ -14,40 +14,93 @@
 }
 
 #bash{
-  float: left;
-  font-size: 14px;
-  line-height: 1.3;
-  font-weight: 600;
-  position: fixed;
-  margin-left: 50%; 
   top: 66%;
 }
 
+#python{
+  top: 78%;
+}
+
+#html{
+  top: 82%;
+}
+
+
+#css{
+  top: 86%;
+}
+
+#js{
+  top: 90%;
+}
+
 #circle {
+  background: #89E051;
+  top: 66%;
+}
+
+#cpp{
+  top: 70%;
+}
+
+#ruby{
+  top: 74%;
+}
+
+#cppcircle {
+  background: #F34B7D;
+  top: 70%;
+}
+
+#pythoncircle {
+  background: #3572A5;
+  top: 78%;
+}
+
+#htmlcircle {
+  background: #E34C26;
+  top: 82%;
+}
+
+#csscircle {
+  background: #563D7C;
+  top: 86%;
+}
+
+#jscircle {
+  background: #F1E05A;
+  top: 90%;
+}
+.circles {
   float: left;
   width: 12px;
   height: 12px;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   border-radius: 50%;
-  background: #89E051;
   overflow: hidden;
-  
   position: fixed;
-  margin-left: 46%; 
-  top: 66%;
+  margin-left: 46%;
+}
+#rubycircle {
+  background: #701516;
+  top: 74%;
 }
 
-#bash{
-  color: #89E051;
+.langs {
+  float: left;
+  font-size: 14px;
+  line-height: 1.3;
+  font-weight: 600;
+  position: fixed;
+  margin-left: 50%;
+  color: rgb(230, 228, 228);
   text-shadow:
   -2px -2px 0 #000000,
   2px -2px 0 #000000,
   -2px 2px 0 #000000,
   2px 2px 0 #000000;
 }
-
-
 
 #secondary{
   text-align: center;
@@ -78,6 +131,7 @@
 body{background-color: #222629;}
 
 nav{
+    z-index: 999;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -128,10 +182,18 @@ nav{
         overflow-x: hidden;
     }
     #bash{
+        z-index: 2;
         top: 73%;
     }
     #circle{
         top: 73%;
+        margin-left: 43%;
+    }
+    #cpp{
+        top: 77%;
+    }
+    #cppcircle{
+        top: 77%;
         margin-left: 43%;
     }
     .nav-links{
@@ -158,6 +220,7 @@ nav{
     }
 }
 .nav-active{
+    z-index: 99;
     transform: translateX(0%);
 }
 
