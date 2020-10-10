@@ -181,20 +181,56 @@ nav{
     body{
         overflow-x: hidden;
     }
+	.circles{
+		margin-left: 24%;
+	}
+	.langs{
+		margin-left: 30%;
+	}
     #bash{
+        z-index: 2;
+        top: 53%;
+    }
+    #circle{
+        top: 53%;
+    }
+    #cpp{
+        top: 57%;
+    }
+    #cppcircle{
+        top: 57%;
+    }
+	#ruby{
+        z-index: 2;
+        top: 61%;
+    }
+    #rubycircle{
+        top: 61%;
+    }
+    #python{
+        top: 65%;
+    }
+    #pythoncircle{
+        top: 65%;
+    }
+	#html{
+        top: 69%;
+    }
+    #htmlcircle{
+        top: 69%;
+    }
+	#css{
         z-index: 2;
         top: 73%;
     }
-    #circle{
+    #csscircle{
         top: 73%;
-        margin-left: 43%;
     }
-    #cpp{
+    #js{
         top: 77%;
     }
-    #cppcircle{
+    #jscircle{
         top: 77%;
-        margin-left: 43%;
     }
     .nav-links{
         position: absolute;
