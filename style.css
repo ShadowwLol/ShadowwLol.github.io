@@ -13,63 +13,59 @@
   text-decoration: none;
 }
 
-#bash{
+#c{
   top: 66%;
 }
 
 #python{
-  top: 78%;
+  top: 74%;
 }
 
 #html{
-  top: 82%;
+  top: 78%;
 }
 
 
 #css{
-  top: 86%;
+  top: 82%;
 }
 
 #js{
-  top: 90%;
+  top: 86%;
 }
 
 #circle {
-  background: #89E051;
+  background: #555555;
   top: 66%;
 }
 
-#cpp{
+#shell{
   top: 70%;
 }
 
-#ruby{
-  top: 74%;
-}
-
-#cppcircle {
-  background: #F34B7D;
+#shellcircle {
+  background: #89E051;
   top: 70%;
 }
 
 #pythoncircle {
   background: #3572A5;
-  top: 78%;
+  top: 74%;
 }
 
 #htmlcircle {
   background: #E34C26;
-  top: 82%;
+  top: 78%;
 }
 
 #csscircle {
   background: #563D7C;
-  top: 86%;
+  top: 82%;
 }
 
 #jscircle {
   background: #F1E05A;
-  top: 90%;
+  top: 86%;
 }
 .circles {
   float: left;
@@ -81,10 +77,6 @@
   overflow: hidden;
   position: fixed;
   margin-left: 46%;
-}
-#rubycircle {
-  background: #701516;
-  top: 74%;
 }
 
 .langs {
@@ -187,50 +179,43 @@ nav{
 	.langs{
 		margin-left: 30%;
 	}
-    #bash{
+    #c{
         z-index: 2;
         top: 53%;
     }
     #circle{
         top: 53%;
     }
-    #cpp{
+    #shell{
         top: 57%;
     }
-    #cppcircle{
+    #shellcircle{
         top: 57%;
-    }
-	#ruby{
-        z-index: 2;
-        top: 61%;
-    }
-    #rubycircle{
-        top: 61%;
     }
     #python{
-        top: 65%;
+        top: 61%;
     }
     #pythoncircle{
-        top: 65%;
+        top: 61%;
     }
 	#html{
-        top: 69%;
+        top: 65%;
     }
     #htmlcircle{
-        top: 69%;
+        top: 65%;
     }
 	#css{
         z-index: 2;
-        top: 73%;
+        top: 69%;
     }
     #csscircle{
-        top: 73%;
+        top: 69%;
     }
     #js{
-        top: 77%;
+        top: 73%;
     }
     #jscircle{
-        top: 77%;
+        top: 73%;
     }
     .nav-links{
         position: absolute;
