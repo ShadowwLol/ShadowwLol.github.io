@@ -2,17 +2,6 @@
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
-}
-
-#shadlogo{
-  color: rgb(207, 206, 206);
-  text-transform: uppercase;
-  letter-spacing: 5px;
-  font-size: 20px;
-  text-decoration: none;
-}
-
-*{
     text-align: center;
     color: rgb(230, 228, 228);
     font-family: 'Poppins', sans-serif;
@@ -50,10 +39,6 @@ tr:nth-child(odd){
     background-color: #1e2124;
 }
 
-.content{
-    padding: 100px;
-}
-
 body{
     background-color: #222629;
 }
@@ -67,6 +52,19 @@ nav{
     font-family: 'Poppins', sans-serif;
     background-color: #181b1d;
 }
+
+#shadlogo{
+  color: rgb(207, 206, 206);
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.content{
+    padding: 100px;
+}
+
 .logo{color: rgb(207, 206, 206);
     text-transform: uppercase;
     letter-spacing: 5px;
